@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .hero-content{
+            display: grid;
+            min-height: 100vh;
+            width: 100%;
+            background-color: beige;
+        }
+
+        .hero-features{
+            display: flex;
+            align-items: center;
+            gap: 2rem;
+            align-self: flex-end;
+        }
+        .hero-text{
+            flex:1;
+            align-self: flex-end;
+        }
+        .feature{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .feature img{
+            height: 30px;
+        }
+    </style>
+</head>
+<body>
+    <section class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <div class="hero-in" data-aos="fade-up">
+                    <p class="hero-headline">Comfortable and safe <br> travel between <br> Morocco <span>&</span>
+                        Spain</p>
+                    <p class="hero-subhead">Daily routes, modern buses, and <br> seamless booking experience.</p>
+                    <a href="#expert">
+                        <button type="button" class="primary-button">about us</button>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-features">
+                <div class="feature">
+                    <img src="/assets/tick.webp" alt="tick">
+                    <p>Daily Routes</p>
+                </div>
+                <div class="feature">
+                    <img src="/assets/tick.webp" alt="tick">
+                    <p>Comfortable Seats</p>
+                </div>
+                <div class="feature">
+                    <img src="/assets/tick.webp" alt="tick">
+                    <p>Free Wi-Fi</p>
+                </div>
+                <div class="feature">
+                    <img src="/assets/tick.webp" alt="tick">
+                    <p>Online Booking</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

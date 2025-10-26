@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Solimar Bus 🚎</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="/assets/logo.ico" type="image/x-icon">
+
+    <!-- Roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-y..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- AOS Animation -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="brand">
+                <img src="/assets/mainlogo.png" alt="Solimar Logo">
+            </div>
+            <ul role="list" class="nav">
+                <a href="/" class="active nav-link">
+                    <li role="listitem" class="nav-list">
+                        Home
+                    </li>
+                </a>
+                <a href="/services.html" class="nav-link">
+                    <li role="listitem" class="nav-list">
+                        Services
+                    </li>
+                </a>
+                <a href="#" class="nav-link">
+                    <li role="listitem" class="nav-list">
+                        Agency Area
+                    </li>
+                </a>
+                <a href="/contact.html" class="nav-link">
+                    <li role="listitem" class="nav-list">
+                        Contact
+                    </li>
+                </a>
+            </ul>
+            <div class="ham">
+                <div class="ham-bar"></div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="contact-hero">
+            <div class="in-contact-hero">
+                <div class="contact-text" data-aos="fade-up">
+                    <p class="contact-headline">We’re Here to Get You Moving</p>
+                    <p class="contact-subheadline">Have questions, feedback, or need assistance planning your next trip?
+                        <br>
+                        The Solimar Bus team is ready to help. <br>
+                        Reach out today and we’ll make sure your journey runs smoothly from start to finish.</p>
+                    <a href="#contact-sec"> <button type="button" class="primary-button">CONTACT US</button></a>
+                </div>
+            </div>
+        </section>
+        <section class="servicios">
+            <img src="/assets/arrows.png" alt="arrows" class="arrows">
+            <div class="in-servicios">
+                <div class="servicios-image" >
+                    <img src="/assets/solimarBus2.png" alt="Solimar Bus">
+                </div>
+                <div class="servicios-text">
+                    <div class="servicios-flex">
+                        <p>SERVICIOS REGULARES</p>
+                        <p>SERVICIOS TOURISTICOS</p>
+                        <p>TAXI PRIVADO -VTC</p>
+                    </div>
+                    <hr class="orange">
+                    <hr class="green">
+                </div>
+            </div>
+        </section>
+        <section class="contact-sec" id="contact-sec">
+            <img src="/assets/halfArrow.png" alt="Half Arrow" class="half-arrow">
+            <div class="in-contact-sec">
+                <div class="contact-text-sec" data-aos="fade-up-right">
+                    <p class="contact-text-headline">We are here to help you</p>
+                    <p class="contact-text-subheadline"><span>Discuss</span> your plan
+                        with us </p>
+                    <p class="contact-text-small-headline">Whether you’re booking a ride, managing a group trip,
+                        or just want to learn more about our routes, <br> our friendly
+                        Solimar Bus support team is only a message away.</p>
+                    <div class="contact-details">
+                        <div class="contact-flex">
+                            <i class="fa-solid fa-phone"></i>
+                            <div>
+                                <p>Call</p>
+                                <a href="tel:640 385 858">640 385 858</a>
+                            </div>
+                        </div>
+                        <div class="contact-flex">
+                            <i class="fa-solid fa-envelope"></i>
+                            <div>
+                                <p>Email</p>
+                                <a href="mailto:asfebus@yahoo.com">asfebus@yahoo.com</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form" data-aos="fade-up-left">
+                    <form action="#">
+                        <div>
+                            <label for="name">Name</label>
+                            <input type="text" name="name" id="name">
+                            <p id="name-error" class="form-error">Please enter your name..</p>
+                        </div>
+                        <div>
+                            <label for="email">Email</label>
+                            <input type="text" name="email" id="email" >
+                            <p id="email-error" class="form-error">Please enter valid email..</p>
+                        </div>
+                        <div>
+                            <label for="message">Message</label>
+                            <textarea name="message" id="message"></textarea>
+                            <p id="msg-error" class="form-error">Please add your message..</p>
+                        </div>
+                        <button type="submit" class="primary-button">SUBMIT</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <section class="why-choose">
+            <div class="in-choose">
+                <div class="choose-image">
+                    <img src="/assets/promo.png" alt="Promo Image">
+                </div>
+                <div class="choose-text">
+                    <p class="choose-headline">Connection Between Morocco and Spain</p>
+                    <p class="choose-subheadline">We provide direct and efficient transportation services connecting Barcelona (Spain) and Casablanca (Morocco) with regular schedules and top-quality service.</p>
+                    <div class="choose-why">
+                        <p class="choose-why-headline">Why Choose Solimarbus?</p>
+                        <ul>
+                            <li>Frequent and reliable departures</li>
+                            <li>Comfortable, air-conditioned buses</li>
+                            <li>Experienced, multilingual drivers</li>
+                            <li>24/7 support for passenger assistance</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="for-booking">
+                <p>To book, please visit any of our authorized agencies or give us a call at the number below.</p>
+                <a class="booking-flex" href="https://wa.me/34640385858?text=Hello,%20I%20want%20to%20book" target="_blank">
+                    <i class="fa-brands fa-whatsapp"></i>
+                    +34 640 385 858
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="in-footer">
+            <div class="footer-left">
+                <img src="/assets/mainlogo.png" alt="Solimar Logo">
+                <p>Looking forward to the opportunity <br>
+                    to contribute and collaborate</p>
+                <div class="social-icons">
+                    <a href="#">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-youtube"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-right">
+                <div class="explore">
+                    <p class="social-headline">Explore</p>
+                    <ul role="list" class="nav">
+                        <a href="/" class="active nav-link">
+                            <li role="listitem" class="nav-list">
+                                Home
+                            </li>
+                        </a>
+                        <a href="/services.html" class="nav-link">
+                            <li role="listitem" class="nav-list">
+                                Services
+                            </li>
+                        </a>
+                        <a href="#" class="nav-link">
+                            <li role="listitem" class="nav-list">
+                                Agency Area
+                            </li>
+                        </a>
+                        <a href="/contact.html" class="nav-link">
+                            <li role="listitem" class="nav-list">
+                                Contact
+                            </li>
+                        </a>
+                    </ul>
+                </div>
+                <div class="navigation">
+                    <p class="social-headline">Navigation</p>
+                    <div role="list">
+                        <ul role="list" class="nav">
+                            <a href="#" class="active nav-link">
+                                <li role="listitem" class="nav-list">
+                                    Agency Area
+                                </li>
+                            </a>
+                            <a href="/privacy.html" class="nav-link">
+                                <li role="listitem" class="nav-list">
+                                    Privacy Policy
+                                </li>
+                            </a>
+                            <a href="/faq.html" class="nav-link">
+                                <li role="listitem" class="nav-list">
+                                    Faqs
+                                </li>
+                            </a>
+                            <a href="/legal.html" class="nav-link">
+                                <li role="listitem" class="nav-list">
+                                    Legal Notice
+                                </li>
+                            </a>
+                        </ul>
+                    </div>
+                </div>
+                <div class="touch">
+                    <p class="social-headline">Get In Touch</p>
+                    <div>
+                        <p class="address">America Avenue No. 170 <br>
+                            08304 Mataro, Barcelona</p>
+                        
+                        <a href="tel:640 385 85 58">
+                            <p class="mobile">640 385 85 58</p>
+                        </a>
+                        <a href="mailto:asfebus@yahoo.com">
+                            <p>asfebus@yahoo.com</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 1000,   
+    // once: true,       
+    offset: 120     
+  });
+</script>
+</body>
+
+</html>
